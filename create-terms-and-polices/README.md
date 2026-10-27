@@ -70,4 +70,3 @@ npx skills add /caminho/absoluto/skills --skill create-terms-and-polices validat
 ```
 
 Selecione o agente desejado no instalador. O prompt “Need to install ... skills” solicita instalar o utilitário npm; ele é separado da instalação das suas skills. A mensagem “One-time prompt” isolada não informa qual é a pergunta — leia o texto completo antes de responder.
-

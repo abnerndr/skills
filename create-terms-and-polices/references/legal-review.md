@@ -36,4 +36,3 @@ Rotas são convenções, não nomes de pasta obrigatórios Google. Qualquer requ
 - Consentimento UE: https://www.google.com/about/company/user-consent-policy/ — verificar produto/região e CMP vigente, sem aplicação universal ao Brasil.
 
 Para Analytics, Ads, Merchant Center ou outros, pesquise políticas oficiais específicas. Separe páginas, configuração da plataforma e práticas operacionais.
-

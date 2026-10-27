@@ -21,4 +21,3 @@ Leia [critérios jurídicos](references/legal-review.md) e [rotas e testes](refe
 Compare documentos, código e evidências operacionais usando ambos os guias. Gere `docs/legal/validation-YYYY-MM-DD.md` ou convenção local, com sufixo incremental para não sobrescrever histórico. Inclua escopo, ambiente, data, evidências, matriz requisito → fato → conclusão e checks executados/não executados. Cada achado: gravidade, arquivo/URL/localização, evidência, impacto e correção concreta.
 
 Classifique itens como verificado, divergente, não verificado ou não aplicável com justificativa. Resultado geral: **pendente** com fatos essenciais/fontes atuais faltantes; **com divergências** com defeitos demonstrados; **sem divergências no escopo verificado** apenas se os checks aplicáveis passarem. Nunca aprovação jurídica geral. Destaque revisão especializada para dados sensíveis, menores, setores regulados, múltiplas jurisdições ou cláusulas controversas.
-

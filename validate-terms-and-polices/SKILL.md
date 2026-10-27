@@ -12,4 +12,3 @@ Leia [metodologia compartilhada](../create-terms-and-polices/SKILL.md), [critér
 Use levantamento, pesquisa e “Revisão compartilhada pelos dois comandos”, sem executar criação por padrão. Inspecione documentos, implementação e fontes atuais; gere relatório versionado com gravidade/evidência. Se não houver documentos, registre ausência e indique /create-terms-and-polices.
 
 Validação isolada não autoriza reescrever páginas, mudar configurações, publicar ou alterar contas externas. Se o pedido incluir corrigir, aplique no escopo, preserve histórico e revalide. Diferencie fatos, divergências e não verificáveis. Build bem-sucedido ou texto mencionando LGPD não prova conformidade jurídica.
-

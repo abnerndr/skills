@@ -22,4 +22,3 @@ Consulte documentação oficial da versão se necessário. Não force SSR: avali
 - Confira aceite/versionamento nos fluxos pertinentes. Não transforme ciência da política em consentimento publicitário obrigatório.
 - Teste direitos/cancelamento só com conta de teste no escopo autorizado, nunca excluindo dados reais.
 - Separe evidência local de produção. Produção sem URL/acesso é não verificada.
-
