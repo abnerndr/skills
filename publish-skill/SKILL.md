@@ -5,17 +5,17 @@ description: Cria e publica skills pessoais de desenvolvimento no repositório g
 
 # Publicar skill no GitHub
 
-Fonte da verdade das skills pessoais: `/home/abner/www/abnerndr/skills`
+Fonte da verdade das skills pessoais: `/home/abner/www/skills`
 Remote: `git@github.com:abnerndr/skills.git`
 
-Nunca crie skill pessoal só em `~/.claude/skills/` ou `~/.cursor/skills/`. Sempre escreva neste repositório e publique.
+Nunca crie skill pessoal só em `~/.claude/skills/` ou `~/.cursor/skills/`. Sempre escreva neste repositório e publique. O `scripts/install.sh` espalha cada skill para os agentes detectados (CLI e desktop): `.agents/skills`, `.claude/skills`, `.codex/skills`, `.gemini/skills`, `.cursor/skills` e, se o programa existir, Antigravity, OpenCode, Qwen, Kiro e GitHub Copilot. No Windows isso vira cópia; no WSL, symlink.
 
 ## Quando criar uma skill nova
 
 1. Crie a pasta no repositório (não em `~/.cursor/skills-cursor/`):
 
 ```text
-/home/abner/www/abnerndr/skills/<skill-name>/SKILL.md
+/home/abner/www/skills/<skill-name>/SKILL.md
 ```
 
 2. `skill-name`: minúsculas, hífens, no máximo 64 caracteres.
@@ -25,13 +25,13 @@ Nunca crie skill pessoal só em `~/.claude/skills/` ou `~/.cursor/skills/`. Semp
 5. Instale os symlinks locais:
 
 ```bash
-bash /home/abner/www/abnerndr/skills/scripts/install.sh
+bash /home/abner/www/skills/scripts/install.sh
 ```
 
 6. Publique no GitHub:
 
 ```bash
-bash /home/abner/www/abnerndr/skills/scripts/publish.sh <skill-name>
+bash /home/abner/www/skills/scripts/publish.sh <skill-name>
 ```
 
 Se o usuário ainda não pediu commit/push, pare depois do `install.sh` e pergunte se deve publicar. Se o pedido já incluir "criar e mandar pro GitHub", "publicar skill" ou equivalente, rode o `publish.sh`.
