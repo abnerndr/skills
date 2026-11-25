@@ -12,11 +12,8 @@ Repositório: `git@github.com:abnerndr/skills.git`
 | `qa-validacao-tasks` | Plano de teste a partir de task/Slack (Playwright + API) |
 | `prd-writer` | PRD curto e acionável |
 | `prd-task-generator` | Task list a partir de um PRD |
-| `dev` | Entry point do ciclo SDD (`/dev`) |
-| `design-init` | Inicializa design system no ciclo SDD |
-| `design-scope` | Escopo de design de uma feature |
-| `sdd-test-plan` | Gera `TEST-PLAN.md` depois do Gate 1 |
-| `strategy-red-team` | Red team da SPEC antes do Gate 1 |
+| `create-terms-and-polices` | Cria páginas de termos e privacidade por projeto |
+| `validate-terms-and-polices` | Audita documentos, implementação e requisitos aplicáveis |
 | `publish-skill` | Criar skill nova neste repo e publicar no GitHub |
 
 ## Instalar no Claude e no Cursor
@@ -44,3 +41,4 @@ Não copiei plugins e skills de terceiros:
 - `ui-ux-pro-max`
 - Superpowers, Caveman, Stripe, Figma, shadcn
 - Skills oficiais do Cursor, Anthropic e Codex
+
